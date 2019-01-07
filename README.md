@@ -12,4 +12,4 @@ Search begins by visiting the root node of the search tree, given by the initial
   
   -If not, we then expand the node. To expand a node, we generate all of its immediate successorsand add them to the frontier, if they (i) are not yet already in the frontier, and (ii) have not beenvisited yet.
   
-This describes the life cycle of a visit, and is the basic order of operations for search agents in thisassignment—(1) remove, (2) check, and (3) expand. We will implement the assignment algorithms asdescribed here. Please refer to lecture notes for further details, and review the lecture pseudo-codebefore you begin.
+This describes the life cycle of a visit, and is the basic order of operations for search agents in this project—(1) remove, (2) check, and (3) expand.
